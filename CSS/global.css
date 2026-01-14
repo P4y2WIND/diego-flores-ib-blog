@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    text-decoration: none;
+    --transition-delay-1: 0.3s;
+    --black-color: #000000;
+    --dark-color-1: #19191D;
+    --dark-color-2: #1E1E22;
+    --dark-color-3: #212127;
+    --dark-color-4: #25252B;
+    --dark-color-5: #333339;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 32px;
+}
+h4 {
+    font-size: 28px;
+}
+h5 {
+    font-size: 24px;
+}
+p, a {
+    font-size: 20px;
+}
+a{
+    color: var(--dark-color-5);
+}
+a:hover {
+    color: var(--black-color);
+}
