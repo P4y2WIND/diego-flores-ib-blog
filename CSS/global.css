@@ -12,6 +12,7 @@
     --dark-color-3: #212127;
     --dark-color-4: #25252B;
     --dark-color-5: #333339;
+    --nav-bar-width: 320px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -34,6 +35,12 @@ h5 {
 }
 p, a {
     font-size: 20px;
+}
+p {
+    margin-top: 20px;
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.5; 
 }
 a{
     color: var(--dark-color-5);

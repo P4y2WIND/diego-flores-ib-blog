@@ -1,5 +1,5 @@
 header {
-    width: 520px;
+    width: var(--nav-bar-width);
     height: calc(100vh - 60px);
     padding: 30px;
     border-right: 1px solid var(--dark-color-5);
