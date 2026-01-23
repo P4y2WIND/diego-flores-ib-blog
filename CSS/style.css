@@ -5,7 +5,7 @@ body {
 }
 
 main {
-    padding: 36px;
+    padding: 45px;
     width: calc(100vw - (var(--nav-bar-width) +  60px));
     overflow-y: auto;
 }
@@ -35,4 +35,3 @@ main::-webkit-scrollbar-thumb:hover {
     font-size: 44px;
     border-bottom: 2px solid var(--black-color);
 }
-

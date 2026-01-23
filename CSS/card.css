@@ -1,0 +1,32 @@
+.card-list{
+  padding-top: 24px;
+  width: 100%;
+}
+.card {
+  padding: 8px 15px;
+  border-left: 2px solid var(--dark-color-1);
+}
+.card-title {
+  color: var(--black-color);
+  font-size: 26px;
+  padding-bottom: 4px;
+}
+.card-date, .card-title {
+  font-weight: 600;
+}
+.card-date, .card-desc, .card-title {
+  display: block;
+}
+.card-desc, .card-date {
+  color: var(--dark-color-5);
+}
+.card-desc {
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+.card:hover {
+  background-color: var(--gray-color-4);
+}
+.card-desc:hover, .card-date:hover {
+  color: var(--dark-color-5);
+}
