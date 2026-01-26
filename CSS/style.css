@@ -30,8 +30,17 @@ main::-webkit-scrollbar-thumb:hover {
 }
 
 .article-title {
-    padding-bottom: 12px;
-    padding-left: 12px;
-    font-size: 44px;
-    border-bottom: 2px solid var(--black-color);
+  padding-bottom: 12px;
+  padding-left: 12px;
+  font-size: 44px;
+  border-bottom: 2px solid var(--black-color);
+  margin-bottom: 25px;
+}
+.index-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+strong {
+  font-weight: 600;
 }

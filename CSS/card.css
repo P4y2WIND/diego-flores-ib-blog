@@ -1,10 +1,11 @@
 .card-list{
-  padding-top: 24px;
+  padding-bottom: 18px;
   width: 100%;
 }
 .card {
-  padding: 8px 15px;
-  border-left: 2px solid var(--dark-color-1);
+    padding: 15px;
+    border-left: 2px solid var(--dark-color-1);
+    transition: var(--transition-delay-2);
 }
 .card-title {
   color: var(--black-color);
@@ -26,6 +27,7 @@
 }
 .card:hover {
   background-color: var(--gray-color-4);
+  transition: var(--transition-delay-2);
 }
 .card-desc:hover, .card-date:hover {
   color: var(--dark-color-5);

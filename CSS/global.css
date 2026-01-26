@@ -6,6 +6,7 @@
     font-weight: 400;
     text-decoration: none;
     --transition-delay-1: 0.3s;
+    --transition-delay-2: 0.15s;
     --black-color: #000000;
     --dark-color-1: #19191D;
     --dark-color-2: #1E1E22;
@@ -21,27 +22,28 @@
 
 h1, h2, h3, h4, h5 {
     font-weight: 600;
+    margin-bottom: 25px;
 }
 h1 {
     font-size: 40px;
 }
 h2 {
-    font-size: 36px;
-}
-h3 {
     font-size: 32px;
 }
+h3 {
+    font-size: 29px;
+}
 h4 {
-    font-size: 28px;
+    font-size: 26px;
 }
 h5 {
-    font-size: 24px;
+    font-size: 23px;
 }
 p, a {
     font-size: 20px;
 }
 p {
-    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: justify;
     hyphens: auto;
     line-height: 1.5; 
