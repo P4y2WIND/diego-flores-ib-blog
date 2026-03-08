@@ -8,7 +8,7 @@
     transition: var(--transition-delay-2);
 }
 .card-title {
-  color: var(--black-color);
+  color: var(--blue-color-1);
   font-size: 26px;
   padding-bottom: 4px;
 }
@@ -28,6 +28,9 @@
 .card:hover {
   background-color: var(--gray-color-4);
   transition: var(--transition-delay-2);
+}
+.card-title:hover {
+  color: var(--blue-color-1);
 }
 .card-desc:hover, .card-date:hover {
   color: var(--dark-color-5);
