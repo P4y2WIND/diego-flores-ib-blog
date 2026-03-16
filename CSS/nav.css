@@ -46,7 +46,7 @@ header ul a .nav-link {
     transition: var(--transition-delay-1);
     display: block;
     padding: 10px 0px 2px 0px;
-    margin-bottom: 17px;
+    margin-bottom: 18px;
     border-bottom: 2px solid var(--red-color-2);
 }
 .nav-section .main-link:hover {
